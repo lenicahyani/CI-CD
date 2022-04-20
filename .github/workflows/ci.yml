@@ -13,3 +13,12 @@ jobs:
         run: |
           echo Hello, world! Multiline.
           echo Hello, world! Multiline again.
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      
+  static:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
